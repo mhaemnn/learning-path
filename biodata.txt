@@ -1,4 +1,20 @@
-Nama : Muhaemin 
-Asal : Bandung Barat
+Nama lengkap         : Muhaemin
+Tempat, tanggal lahir: Bandung, 09 Mei 1998
+Alamat               : Kp Ginayah RT/RW 002/015 Des Cilanggari Kec Gunug Halu Bandung Barat
+No. HP               : 0878-7255-0972
+Email                : ismuhaimin1@gmail.com
 
+Pendidikan:
 
+    Universitas Widyagama Malang, Jurusan Teknik Informatika, Angkatan 2020 Sedang Menempuh S1
+    SMK Progresia Cianjur, Jurusan Teknik Jaringan dan Komputer,  Lulus Tahun 2017
+
+Pengalaman Pelatihan:
+
+    Pelatihan di Digitalent, Web Developer Junior, Selama 24-28 Okt 2022
+
+Kemampuan:
+
+    Penguasaan bahasa pemrograman : Javascipt
+    Keterampilan teknis           : seperti pemrograman web, basis data, jaringan
+    Keterampilan non-teknis       : Berkomunikasi yang baik, pantang menyerah dan semangat belajar
