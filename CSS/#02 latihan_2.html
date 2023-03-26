@@ -3,32 +3,75 @@
   <head>
     <title>Wrapper dan container</title>
     <style>
-      .wrapper {
-        background: gray;
+      body {
+        background-color: #ecf0f1;
+        font-family: Arial, Helvetica, sans-serif;
       }
       .container {
         width: 1200px;
         margin: auto;
+        padding: 0 10px 0 10px;
+        background-color: #bdc3c7;
       }
       .sidebar {
-        background: red;
         width: 400px;
         height: 600px;
         float: left;
       }
       .content {
-        background: blue;
         width: 800px;
         height: 600px;
         float: right;
+      }
+      .clear {
+        clear: both;
+      }
+      .logo {
+        float: left;
+        width: 100px;
+        height: auto;
+        padding: 20px;
+      }
+      .logo img {
+        max-width: 100%;
+        height: auto;
+      }
+      #menu {
+        float: right;
+        width: 960px;
+        padding: 30px 0 30px 0;
+      }
+      #menu li {
+        float: left;
+        list-style: none;
+        margin: 0 10px 0 10px;
+      }
+      #menu li a {
+        color: #34495e;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
       }
     </style>
   </head>
   <body>
     <div class="wrapper">
       <div class="container">
+        <div class="logo">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/9396/9396791.png"
+            alt="" />
+        </div>
+        <div id="menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Tentang</a></li>
+            <li><a href="#">Kontak</a></li>
+          </ul>
+        </div>
         <div class="sidebar"></div>
         <div class="content"></div>
+        <div class="clear"></div>
       </div>
     </div>
   </body>
