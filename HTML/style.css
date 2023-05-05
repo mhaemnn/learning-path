@@ -1,22 +1,58 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Signika:wght@500&display=swap");
 body {
+  padding: 0;
+  margin: 0;
   font-family: "Inter", sans-serif;
+}
+.jumbotron {
+  padding: 50px;
+  background-color: #00c8eb;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+}
+nav {
+  background-color: #00a2c6;
+  padding: 5px;
+}
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
 }
 nav a {
   font-size: 18px;
   font-weight: 400;
   text-decoration: none;
+  color: white;
 }
 nav a:hover {
   font-weight: bold;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+main {
+  padding: 20px;
 }
 h2,
 h3 {
   color: #00a2c6;
 }
-
+.featured-img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
 .profil header {
   text-align: center;
+}
+.profil img {
+  width: 200px;
 }
 footer {
   background-color: #00a2c6;
