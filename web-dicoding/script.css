@@ -166,4 +166,21 @@ main aside .social-media li a:hover {
   header.navbar-container {
     flex-direction: column;
   }
+  header .navbar-container .nav-list ul {
+    flex-wrap: wrap;
+    column-gap: 5rem;
+  }
+  main .content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  main .content .content-description .title {
+    font-size: 3rem;
+  }
+  main .content .content-description p {
+    font-size: 1rem;
+  }
+  main .content .content-image {
+    order: -1;
+  }
 }
