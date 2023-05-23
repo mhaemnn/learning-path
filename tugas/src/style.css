@@ -53,14 +53,17 @@ body {
 .header .contanier .nav-links a.active {
   color: #1b4bca;
 }
-.header .contanier .nav-links .soc-links {
-  margin-left: 40px;
-}
-.header .contanier .nav-links .soc-links a {
-  font-size: 5rem;
-  margin-left: 15px;
-}
 
+.header .contanier .nav-links button {
+  background: #1b4bca;
+  color: white;
+  padding: 7px;
+  width: 5rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold !important;
+  border: none;
+}
 #btn-menu {
   display: none;
 }
